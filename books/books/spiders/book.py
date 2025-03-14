@@ -15,7 +15,7 @@ class BookSpider(scrapy.Spider):
 
     def parse(self, response):
         """
-        @url https://books.toscrape.com
+        @url https://books.toscrape.coms
         @returns items 20 20
         @returns request 1 50
         @scrapes url title price
